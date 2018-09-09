@@ -1,0 +1,32 @@
+baseurl = "http://www.rebuildtheinternet.com/"
+languageCode = "en-us"
+title = "How to rebuild the Internet in 52 weeks"
+theme = "hugo-lithium-theme"
+copyright = "&copy; HC6 2018"
+googleAnalytics = "UA-81852339-4"
+disqusShortname = "www-rebuildtheinternet-com"
+
+[permalinks]
+    post = "/:year/:month/:day/:title/"
+    page = "/:title/"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+[[menu.main]]
+    name = "Google"
+    url = "https://plus.google.com/112855953529996850939?rel=author"
+[[menu.main]]
+    name = "Twitter"
+    url = "https://twitter.com/hctw6"
+
+[params]
+    description = "How to rebuild the Internet in 52 weeks"
+    longdescription = "If all the Internet services go down today, how does one rebuild the Internet from scratch?"
+
+    [params.logo]
+    url = "avatar1.png"
+    width = 50
+    height = 50
+    alt = "Logo"
+
