@@ -73,11 +73,11 @@ The results are available on [GitHub](https://github.com/hc6internet/rebuildthei
 
 1. Reduce dependency in each application
 
-A lot of time was spent on connecting the web server to local memcached, and running the container with RabbitMQ client. As the number of dependencies increase, so does the complexity of each application. Reducing dependency will certainly make any task more efficient. On a separate note, making each application single purpose will also make things easier in the long run. 
+    A lot of time was spent on connecting the web server to local memcached, and running the container with RabbitMQ client. As the number of dependencies increase, so does the complexity of each application. Reducing dependency will certainly make any task more efficient. On a separate note, making each application single purpose will also make things easier in the long run. 
 
 2. Separate data from code
 
-My initial thought on cache statistics is to expose REST API on the web server and have cache monitor to poll data from them. Aside from the fact that this is difficult with auto-scaling, cache data is now dispersed among many web servers. The first problem with this approach is how often do I have to poll each web server. I quickly realize that there is almost no way to make sure that data is not lost. This makes me realize that data should be better off separated from the code that processes it. In this case, the web server immediately punts the data out to a message broker. This separation not only makes auto-scaling works so much easier; it also allows dependent pods (web servers and cache monitor) to be started up independently.
+    My initial thought on cache statistics is to expose REST API on the web server and have cache monitor to poll data from them. Aside from the fact that this is difficult with auto-scaling, cache data is now dispersed among many web servers. The first problem with this approach is how often do I have to poll each web server. I quickly realize that there is almost no way to make sure that data is not lost. This makes me realize that data should be better off separated from the code that processes it. In this case, the web server immediately punts the data out to a message broker. This separation not only makes auto-scaling works so much easier; it also allows dependent pods (web servers and cache monitor) to be started up independently.
 
 **[References]**
 
