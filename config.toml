@@ -21,7 +21,7 @@ disqusShortname = "www-rebuildtheinternet-com"
     url = "https://twitter.com/hctw6"
 [[menu.main]]
     name = "GitHub"
-    url = "https://github.com/hc6internet"
+    url = "https://github.com/hc6internet/rebuildtheinternet"
 
 [params]
     description = "How to rebuild the Internet in 52 weeks"

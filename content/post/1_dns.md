@@ -6,7 +6,7 @@ title = "Week 1: Domain Name Service"
 
 What is the first thing that needs to be brought up? We need to be able to find where each service is. Given the assumption that the computers and infrastructure are still there, then the first thing we need is a name mapping service that translates a meaningful service name to its public IP address.
 
-This brings me to the first task: build a DNS service.
+This brings me to the first task: **build a DNS service**.
 
 **[Requirements]**
 
@@ -32,6 +32,8 @@ With these considerations, I choose to deploy PowerDNS with a MySQL database bac
 Figure 1: DNS service architecture
 
 The load balancer fronts 2 PowerDNS servers for redundancy. Each server reads from its individual MySQL read replica. One of these PowerDNS instances is used for configuration, which writes to the master MySQL database. The configuration is written via REST API provided by PowerDNS itself. A convenient Python wrapper PowerDNS-CLI is used to configure DNS zone data in the backend database. Since PowerDNS-CLI runs internally, there is no need to expose REST API to reduce the risk of being compromised.
+
+The results are available on [GitHub](https://github.com/hc6internet/rebuildtheinternet/tree/master/task1).
 
 **[Lessons Learned]**
 
