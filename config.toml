@@ -1,4 +1,4 @@
-baseurl = "http://www.rebuildtheinternet.com/"
+baseurl = "https://www.rebuildtheinternet.com/"
 languageCode = "en-us"
 title = "How to rebuild the Internet in 52 weeks"
 theme = "hugo-lithium-theme"
