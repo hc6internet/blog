@@ -5,6 +5,13 @@ theme = "hugo-lithium-theme"
 copyright = "&copy; HC6 2018"
 googleAnalytics = "UA-81852339-4"
 disqusShortname = "www-rebuildtheinternet-com"
+enableRobotsTXT = true
+canonifyURLs = true
+
+[Author]
+  FullName = "HC6"
+  Position = "Software Engineer"
+  Email = "hc6internet@gmail.com"
 
 [permalinks]
     post = "/:year/:month/:day/:title/"
