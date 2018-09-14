@@ -2,12 +2,8 @@
 
 <main class="content" role="main">
 
-  <div class="content">
-      <h3><center>{{ .Site.Params.longdescription }}</center></h3>
-  </div>
-
   <div class="archive">
-    {{ range (where .Site.Pages "Type" "post").GroupByDate "2006" }}
+    {{ range (where .Data.Pages "Type" "post").GroupByDate "2006" }}
     <!-- <h2 class="archive-title">{{ .Key }}</h2> -->
     {{ range .Pages }}
     <article class="archive-item">
