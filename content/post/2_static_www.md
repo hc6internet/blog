@@ -1,6 +1,7 @@
 +++
 date = "2018-09-10T23:55:19-07:00"
 title = "Week 2: Static Web Site"
+tags = ["technology", "scalability", "internet", "education", "microservice"]
 
 +++
 
@@ -93,5 +94,6 @@ The results are available on [GitHub](https://github.com/hc6internet/rebuildthei
 
 6. Exploring message brokers: RabiitMQ, Kafka, ActiveMQ, and Kestrel - <https://dzone.com/articles/exploring-message-brokers>
 
-
+---
+Contact me @ <hc6internet@gmail.com>
 

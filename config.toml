@@ -10,8 +10,6 @@ canonifyURLs = true
 
 [Author]
   FullName = "HC6"
-  Position = "Software Engineer"
-  Email = "hc6internet@gmail.com"
 
 [permalinks]
     post = "/:year/:month/:day/:title/"

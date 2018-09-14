@@ -1,6 +1,7 @@
 +++
 date = "2018-08-31T23:18:17-07:00"
 title = "Week 1: Domain Name Service"
+tags = ["technology", "scalability", "internet", "education", "microservice"]
 
 +++
 

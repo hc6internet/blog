@@ -1,6 +1,7 @@
 +++
 date = "2018-08-23T23:13:50-07:00"
 title = "Week 0: When the Internet goes dark"
+tags = ["technology", "scalability", "internet", "education", "microservice"]
 
 +++
 
