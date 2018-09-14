@@ -27,6 +27,9 @@ canonifyURLs = true
 [[menu.main]]
     name = "GitHub"
     url = "https://github.com/hc6internet/rebuildtheinternet"
+[[menu.main]]
+    name = "Contact"
+    url = "mailto://hc6internet@gmail.com"
 
 [params]
     description = "How to rebuild the Internet in 52 weeks"

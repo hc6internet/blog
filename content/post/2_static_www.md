@@ -93,7 +93,3 @@ The results are available on [GitHub](https://github.com/hc6internet/rebuildthei
 5. *Big data storage wars: Ceph vs Gluster* - <https://technologyadvice.com/blog/information-technology/ceph-vs-gluster/>
 
 6. Exploring message brokers: RabiitMQ, Kafka, ActiveMQ, and Kestrel - <https://dzone.com/articles/exploring-message-brokers>
-
----
-Contact me @ <hc6internet@gmail.com>
-

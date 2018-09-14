@@ -52,7 +52,3 @@ The results are available on [GitHub](https://github.com/hc6internet/rebuildthei
 * *Google Public DNS Blog* - <https://googleblog.blogspot.com/2012/02/google-public-dns-70-billion-requests.html>
 * *Alpine Linux based PowerDNS docker image* - <https://github.com/pschiffe/docker-pdns>
 * *PowerDNS CLI* - <https://github.com/pbertera/PowerDNS-CLI>
-
----
-Contact me @ <hc6internet@gmail.com>
-

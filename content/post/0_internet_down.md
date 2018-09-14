@@ -30,6 +30,3 @@ Open source tools will be used to create and simulate the services. As much as p
 Each task will hopefully last about a week, while more complicated services will last longer. At the end of the 52-week period, I hope to have a mini-Internet that mimics most of the services I rely on.
 
 Now, let’s switch off the light on the Internet and start rebuilding it.
-
----
-Contact me @ <hc6internet@gmail.com>
