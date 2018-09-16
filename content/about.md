@@ -17,6 +17,3 @@ in a simulated environment, but never tested (or meant to be used) in production
 The designs and architectures are based on my understanding and research. I do not work for the organizations that produce these services, or use any of the code from the organization that I work for. There are undoubtedly many mistakes, and definitely a lot of rooms for improvement in my designs. Please feel free to correct me or discuss with me, either on the comments section or via [email](mailto:hc6internet@gmail.com). I will be more than happy to learn from you.
 
 Otherwise, enjoy my blog.
-
----
-Contact me @ <hc6internet@gmail.com>
