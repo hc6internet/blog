@@ -84,6 +84,8 @@ Let’s first look at efficiency. Since the analytics server and the partition s
 
 Another requirement is reliability. A TCP connection is reliable in the sense that each byte needs to be acknowledged by the receiver. However, since TCP is a stream-based protocol, using TCP means that the application code needs to consider message boundaries, otherwise the service can receive partial, or multiple message contents in a single packet. To reducthe e complexity of application code, we use **ZeroMQ** to ensure a message is always received in full.
 
+In production, we may want to avoid using the simple modulus function as a partition strategy. This strategy will require partition rebalancing operation to move around a large amount of data. When the system is already under load (the reason for rebalancing in the first place), moving around a large amount of data will make the problem even worse. One strategy is to use a larger partition value N than the number of nodes. This way, when the number of nodes increases, we can pick just a portion of all partitions that are currently assigned to each node to the new node, thereby reducing the amount of data movement.
+
 **[System Architecture]**
 
 Let’s now put everything together to build the analytics service:
