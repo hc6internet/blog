@@ -4,7 +4,9 @@ date = "2018-09-21T22:35:37-07:00"
 tags = ["rebuild", "technology", "scalability", "internet", "education", "microservice", "network", "software", "programming", "system"]
 +++
 
-In this task, we are trying to build a simple **site analytics service**. An analytics service provides insights into how users access your content. An example of such a service is [Google Analytics](https://analytics.google.com/analytics/web/).
+With websites up and running, how do we get valuable information about the users? Which content do users find interesting?
+
+In this task, we will build a simple **analytics service**. An analytics service provides insights into how users access your content. An example of such a service is [Google Analytics](https://analytics.google.com/analytics/web/).
 
 This task is different in that in the previous tasks, we have been mostly focused on read-only data. This week, we are going to look at how "write" affects design decisions.
 
